@@ -2,5 +2,7 @@
 backend/.env
 .venv/
 .venv-new/
+backend/.venv/
+backend/.venv-new/
 __pycache__/
 *.py[cod]
