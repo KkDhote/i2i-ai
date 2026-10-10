@@ -32,7 +32,7 @@ async function askAI(event) {
   const userQuestion = question.trim();
   if (!userQuestion) return;
 
-  setAnswer("AdaptIQ AI is thinking...");
+  setAnswer("I2I AI is thinking...");
 
   try {
     const response = await fetch("http://127.0.0.1:8000/api/ai/ask", {
@@ -56,11 +56,11 @@ async function askAI(event) {
     setAnswer(data.answer || "No answer was returned.");
     setQuestion("");
   } catch (error) {
-    console.error("AdaptIQ AI error:", error);
+    console.error("I2I AI error:", error);
 
     setAnswer(
       error.message ||
-        "Unable to connect to AdaptIQ AI. Please check that the backend is running."
+        "Unable to connect to I2I AI. Please check that the backend is running."
     );
   }
 }
@@ -160,17 +160,17 @@ async function askAI(event) {
     <div className="app-shell">
       <aside className="sidebar">
         <a className="brand" href="#home" onClick={() => setActivePage("Overview")}>
-          <span className="brand-mark">A</span>
+          <span className="brand-mark">I</span>
           <span>
-            <strong>AdaptIQ</strong>
-            <small>INTELLIGENCE PLATFORM</small>
+            <strong>I2I</strong>
+            <small>ADAPTIVE AI PLATFORM</small>
           </span>
         </a>
         <div className="workspace-label">WORKSPACE</div>
         <div className="workspace">
-          <span className="workspace-avatar">H</span>
+          <span className="workspace-avatar">I</span>
           <span className="workspace-info">
-            <strong>Hackwave Team</strong>
+            <strong>I2I Workspace</strong>
             <small>Free workspace</small>
           </span>
           <span className="workspace-chevron">⌄</span>
@@ -204,9 +204,9 @@ async function askAI(event) {
             </button>
           </div>
           <div className="profile">
-            <div className="profile-avatar">HT</div>
+            <div className="profile-avatar">I2I</div>
             <div className="profile-info">
-              <strong>Hackwave Team</strong>
+              <strong>I2I Workspace</strong>
               <small>Team workspace</small>
             </div>
             <span className="profile-menu">•••</span>
@@ -388,7 +388,7 @@ async function askAI(event) {
                   <div className="ai-heading">
                     <div className="ai-symbol">✳</div>
                     <div>
-                      <h2>AdaptIQ AI</h2>
+                      <h2>I2I AI</h2>
                       <p>Your business copilot</p>
                     </div>
                     <span className="beta-tag">BETA</span>
@@ -418,10 +418,10 @@ async function askAI(event) {
                   
 {answer && (
   <div className="ai-answer">
-    <strong>AdaptIQ AI · AI-generated insight</strong>
+    <strong>I2I AI · AI-generated insight</strong>
 
     <div className="ai-answer-content">
-      {answer === "AdaptIQ AI is thinking..." ? (
+      {answer === "I2I AI is thinking..." ? (
         <p className="ai-loading">
           <span className="ai-loading-dot" />
           Analyzing your workspace...
@@ -452,7 +452,7 @@ async function askAI(event) {
 
                   <form className="ai-input" onSubmit={askAI}>
                     <input
-                      aria-label="Ask AdaptIQ AI"
+                      aria-label="Ask I2I AI"
                       placeholder="Ask anything about your business..."
                       value={question}
                       onChange={(event) => setQuestion(event.target.value)}
@@ -563,7 +563,7 @@ async function askAI(event) {
             </section>
           )}
           <footer className="footer">
-            <span>© 2026 AdaptIQ AI · Hackwave 3.0</span>
+            <span>© 2026 I2I AI · Hackwave 3.0</span>
             <span><i className="live-dot" /> Backend connected <span className="footer-divider">·</span>Gemini AI connected · Chart uses illustrative data</span>
           </footer>
         </div>
