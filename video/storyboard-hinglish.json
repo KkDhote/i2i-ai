@@ -1,0 +1,788 @@
+[
+  {
+    "id": "01",
+    "chapter": "Introduction",
+    "title": "Your goal. Your workspace.",
+    "kicker": "I2I · INTELLIGENCE TO IMPACT",
+    "narration": "Sochiye, aap dashboard kholkar bolte hain: kal ki client meeting ki taiyaari karni hai. Menus dhoondhne ke bajaye, zaroori client context aur issues ek screen par aa jaate hain. Yahi idea hai I2I, yaani Intelligence to Impact ka. Yeh HackWave 3.0 ke liye bana ek adaptive AI workspace hai. Is video mein problem, aim, solution, working features aur research ko detail mein samjhenge. Saath hi dekhenge ki project ki uniqueness kya hai, aur aage kya banana hai.",
+    "bullets": [
+      "Intent to interface",
+      "Built for HackWave 3.0",
+      "One goal reshapes one workspace"
+    ],
+    "visual": "intro",
+    "source_ids": [],
+    "speech_segments": [
+      {
+        "caption": "Sochiye, aap dashboard kholkar bolte hain: kal ki client meeting ki taiyaari karni hai.",
+        "speech": "सोचिए, आप डैशबोर्ड खोलकर बोलते हैं, कल की क्लाइंट मीटिंग की तैयारी करनी है।"
+      },
+      {
+        "caption": "Menus dhoondhne ke bajaye, zaroori client context aur issues ek screen par aa jaate hain.",
+        "speech": "मेन्यूज़ ढूँढने के बजाय, ज़रूरी क्लाइंट कॉन्टेक्स्ट और इश्यूज़ एक स्क्रीन पर आ जाते हैं।"
+      },
+      {
+        "caption": "Yahi idea hai I2I, yaani Intelligence to Impact ka.",
+        "speech": "यही आइडिया है आई टू आई, यानी इंटेलिजेंस टू इम्पैक्ट का।"
+      },
+      {
+        "caption": "Yeh HackWave 3.0 ke liye bana ek adaptive AI workspace hai.",
+        "speech": "यह हैकवेव थ्री पॉइंट ज़ीरो के लिए बना एक अडैप्टिव ए आई वर्कस्पेस है।"
+      },
+      {
+        "caption": "Is video mein problem, aim, solution, working features aur research ko detail mein samjhenge.",
+        "speech": "इस वीडियो में प्रॉब्लम, ऐम, सॉल्यूशन, वर्किंग फीचर्स और रिसर्च को डिटेल में समझेंगे।"
+      },
+      {
+        "caption": "Saath hi dekhenge ki project ki uniqueness kya hai, aur aage kya banana hai.",
+        "speech": "साथ ही देखेंगे कि प्रोजेक्ट की यूनिकनेस क्या है, और आगे क्या बनाना है।"
+      }
+    ]
+  },
+  {
+    "id": "02",
+    "chapter": "Problem statement",
+    "title": "Why should work start with menus?",
+    "kicker": "THE PROBLEM",
+    "narration": "Aaj ke applications fixed dashboards, menus, filters aur workflows ke around bane hote hain. Lekin user ka goal har baar ek jaisa nahi hota. Client meeting, usage investigation aur overdue work ke liye alag information chahiye. User ko pehle sochna padta hai: kaunsa menu, kaunsa filter, aur kaunsi report kholun? Phir alag jagahon se context jodna padta hai, tab actual kaam shuru hota hai. Hamari problem statement hai: interface ko user ke current intent ke hisaab se adapt karna. Matlab, goal badle toh relevant tools aur information bhi screen par badal sakein.",
+    "bullets": [
+      "Fixed screens; changing goals",
+      "Context scattered across tools",
+      "Navigation before meaningful action",
+      "The interface should follow intent"
+    ],
+    "visual": "problem",
+    "source_ids": [],
+    "speech_segments": [
+      {
+        "caption": "Aaj ke applications fixed dashboards, menus, filters aur workflows ke around bane hote hain.",
+        "speech": "आज के एप्लिकेशन्स फिक्स्ड डैशबोर्ड्स, मेन्यूज़, फिल्टर्स और वर्कफ्लोज़ के अराउंड बने होते हैं।"
+      },
+      {
+        "caption": "Lekin user ka goal har baar ek jaisa nahi hota.",
+        "speech": "लेकिन यूज़र का गोल हर बार एक जैसा नहीं होता।"
+      },
+      {
+        "caption": "Client meeting, usage investigation aur overdue work ke liye alag information chahiye.",
+        "speech": "क्लाइंट मीटिंग, यूसेज इन्वेस्टिगेशन और ओवरड्यू वर्क के लिए अलग इन्फॉर्मेशन चाहिए।"
+      },
+      {
+        "caption": "User ko pehle sochna padta hai: kaunsa menu, kaunsa filter, aur kaunsi report kholun?",
+        "speech": "यूज़र को पहले सोचना पड़ता है, कौन सा मेन्यू, कौन सा फिल्टर, और कौन सी रिपोर्ट खोलूँ?"
+      },
+      {
+        "caption": "Phir alag jagahon se context jodna padta hai, tab actual kaam shuru hota hai.",
+        "speech": "फिर अलग जगहों से कॉन्टेक्स्ट जोड़ना पड़ता है, तब ऐक्चुअल काम शुरू होता है।"
+      },
+      {
+        "caption": "Hamari problem statement hai: interface ko user ke current intent ke hisaab se adapt karna.",
+        "speech": "हमारी प्रॉब्लम स्टेटमेंट है, इंटरफेस को यूज़र के करंट इंटेंट के हिसाब से अडैप्ट करना।"
+      },
+      {
+        "caption": "Matlab, goal badle toh relevant tools aur information bhi screen par badal sakein.",
+        "speech": "मतलब, गोल बदले तो रेलेवेंट टूल्स और इन्फॉर्मेशन भी स्क्रीन पर बदल सकें।"
+      }
+    ]
+  },
+  {
+    "id": "03",
+    "chapter": "Aim and proposed solution",
+    "title": "Turn intent into useful tools",
+    "kicker": "THE AIM",
+    "narration": "Project ka aim hai relevant information aur useful actions ko ek coherent workspace mein laana. Proposed solution ka flow hai: intent samjho, ambiguity clarify karo, phir useful components select karo. Uske baad layout arrange karo, aur batao ki yeh information kyun dikhayi gayi. Goal dobara badle toh workspace dobara adapt ho, bina user ka ongoing kaam khoye. Sirf AI ka likha hua text nahi, balki actual task tools aur meaningful cards chahiye. Design consistent rahe, controls familiar rahein, aur user system ko correct kar sake.",
+    "bullets": [
+      "Understand and clarify intent",
+      "Select relevant information and tools",
+      "Adapt while preserving continuity",
+      "Explain why the interface changed"
+    ],
+    "visual": "aim",
+    "source_ids": [
+      "1",
+      "3"
+    ],
+    "speech_segments": [
+      {
+        "caption": "Project ka aim hai relevant information aur useful actions ko ek coherent workspace mein laana.",
+        "speech": "प्रोजेक्ट का ऐम है रेलेवेंट इन्फॉर्मेशन और यूज़फुल ऐक्शन्स को एक कोहीरेंट वर्कस्पेस में लाना।"
+      },
+      {
+        "caption": "Proposed solution ka flow hai: intent samjho, ambiguity clarify karo, phir useful components select karo.",
+        "speech": "प्रपोज़्ड सॉल्यूशन का फ्लो है, इंटेंट समझो, ऐम्बिग्युइटी क्लैरिफाई करो, फिर यूज़फुल कम्पोनेंट्स सेलेक्ट करो।"
+      },
+      {
+        "caption": "Uske baad layout arrange karo, aur batao ki yeh information kyun dikhayi gayi.",
+        "speech": "उसके बाद लेआउट अरेंज करो, और बताओ कि यह इन्फॉर्मेशन क्यों दिखाई गई।"
+      },
+      {
+        "caption": "Goal dobara badle toh workspace dobara adapt ho, bina user ka ongoing kaam khoye.",
+        "speech": "गोल दोबारा बदले तो वर्कस्पेस दोबारा अडैप्ट हो, बिना यूज़र का ऑनगोइंग काम खोए।"
+      },
+      {
+        "caption": "Sirf AI ka likha hua text nahi, balki actual task tools aur meaningful cards chahiye.",
+        "speech": "सिर्फ ए आई का लिखा हुआ टेक्स्ट नहीं, बल्कि ऐक्चुअल टास्क टूल्स और मीनिंगफुल कार्ड्स चाहिए।"
+      },
+      {
+        "caption": "Design consistent rahe, controls familiar rahein, aur user system ko correct kar sake.",
+        "speech": "डिज़ाइन कंसिस्टेंट रहे, कंट्रोल्स फ़मिलियर रहें, और यूज़र सिस्टम को करेक्ट कर सके।"
+      }
+    ]
+  },
+  {
+    "id": "04",
+    "chapter": "The working workspace",
+    "title": "Start familiar. Change with purpose.",
+    "kicker": "THE PROTOTYPE",
+    "narration": "I2I ek general dashboard se start hota hai, jo user ko familiar starting point deta hai. Left panel mein workspace goal, suggested scenarios, refinements aur recent changes milte hain. Right side ke adaptive canvas mein metrics, performance, assistant aur team tasks dikhte hain. Aap apna goal likh sakte hain, ya ready demo choose kar sakte hain. Phir wahi page relevant cards select karke unhe rearrange karta hai. Search, task draft aur assistant state preserve rehte hain; har feature ke liye naya page nahi.",
+    "bullets": [
+      "Intent panel + adaptive canvas",
+      "General dashboard as a familiar starting point",
+      "Goal examples and follow-up refinements",
+      "Drafts and search survive layout changes"
+    ],
+    "visual": "workspace",
+    "source_ids": [],
+    "speech_segments": [
+      {
+        "caption": "I2I ek general dashboard se start hota hai, jo user ko familiar starting point deta hai.",
+        "speech": "आई टू आई एक जनरल डैशबोर्ड से स्टार्ट होता है, जो यूज़र को फ़मिलियर स्टार्टिंग पॉइंट देता है।"
+      },
+      {
+        "caption": "Left panel mein workspace goal, suggested scenarios, refinements aur recent changes milte hain.",
+        "speech": "लेफ्ट पैनल में वर्कस्पेस गोल, सजेस्टेड सिनेरियोज़, रिफाइनमेंट्स और रीसेंट चेंजेज़ मिलते हैं।"
+      },
+      {
+        "caption": "Right side ke adaptive canvas mein metrics, performance, assistant aur team tasks dikhte hain.",
+        "speech": "राइट साइड के अडैप्टिव कैनवस में मेट्रिक्स, परफॉर्मेंस, असिस्टेंट और टीम टास्क्स दिखते हैं।"
+      },
+      {
+        "caption": "Aap apna goal likh sakte hain, ya ready demo choose kar sakte hain.",
+        "speech": "आप अपना गोल लिख सकते हैं, या रेडी डेमो चूज़ कर सकते हैं।"
+      },
+      {
+        "caption": "Phir wahi page relevant cards select karke unhe rearrange karta hai.",
+        "speech": "फिर वही पेज रेलेवेंट कार्ड्स सेलेक्ट करके उन्हें रीअरेंज करता है।"
+      },
+      {
+        "caption": "Search, task draft aur assistant state preserve rehte hain; har feature ke liye naya page nahi.",
+        "speech": "सर्च, टास्क ड्राफ्ट और असिस्टेंट स्टेट प्रिज़र्व रहते हैं, हर फीचर के लिए नया पेज नहीं।"
+      }
+    ]
+  },
+  {
+    "id": "05",
+    "chapter": "Demo: client meeting",
+    "title": "Walk into the meeting prepared",
+    "kicker": "SCENARIO 01",
+    "narration": "Pehla scenario hai: kal ki client meeting ke liye prepare karna. Client overview, recent conversations, open issues aur meeting brief ek jagah aate hain. Usage aur next actions jaise relevant cards bhi meeting preparation mein help kar sakte hain. Demo account Northstar Labs mein onboarding concerns aur slower exports dikhaye gaye hain. Yeh clearly sample data hai; kisi real customer's live system ka connection nahi hai. Meeting mein hum pooch sakte hain: client ko kya chahiye, evidence kya hai, owner kaun hai? Suggested next action real task form kholta hai, taaki follow-up ko assign kiya ja sake.",
+    "bullets": [
+      "Client context and recent conversations",
+      "Open issues, usage and meeting brief",
+      "Sample account: Northstar Labs",
+      "Turn next actions into owned tasks"
+    ],
+    "visual": "meeting",
+    "source_ids": [],
+    "speech_segments": [
+      {
+        "caption": "Pehla scenario hai: kal ki client meeting ke liye prepare karna.",
+        "speech": "पहला सिनेरियो है, कल की क्लाइंट मीटिंग के लिए प्रिपेयर करना।"
+      },
+      {
+        "caption": "Client overview, recent conversations, open issues aur meeting brief ek jagah aate hain.",
+        "speech": "क्लाइंट ओवरव्यू, रीसेंट कॉन्वरसेशन्स, ओपन इश्यूज़ और मीटिंग ब्रीफ एक जगह आते हैं।"
+      },
+      {
+        "caption": "Usage aur next actions jaise relevant cards bhi meeting preparation mein help kar sakte hain.",
+        "speech": "यूसेज और नेक्स्ट ऐक्शन्स जैसे रेलेवेंट कार्ड्स भी मीटिंग प्रिपरेशन में हेल्प कर सकते हैं।"
+      },
+      {
+        "caption": "Demo account Northstar Labs mein onboarding concerns aur slower exports dikhaye gaye hain.",
+        "speech": "डेमो अकाउंट नॉर्थस्टार लैब्स में ऑनबोर्डिंग कंसर्न्स और स्लोअर एक्सपोर्ट्स दिखाए गए हैं।"
+      },
+      {
+        "caption": "Yeh clearly sample data hai; kisi real customer's live system ka connection nahi hai.",
+        "speech": "यह क्लियरली सैम्पल डेटा है, किसी रियल कस्टमर के लाइव सिस्टम का कनेक्शन नहीं है।"
+      },
+      {
+        "caption": "Meeting mein hum pooch sakte hain: client ko kya chahiye, evidence kya hai, owner kaun hai?",
+        "speech": "मीटिंग में हम पूछ सकते हैं, क्लाइंट को क्या चाहिए, एविडेंस क्या है, ओनर कौन है?"
+      },
+      {
+        "caption": "Suggested next action real task form kholta hai, taaki follow-up ko assign kiya ja sake.",
+        "speech": "सजेस्टेड नेक्स्ट ऐक्शन रियल टास्क फॉर्म खोलता है, ताकि फॉलो अप को असाइन किया जा सके।"
+      }
+    ]
+  },
+  {
+    "id": "06",
+    "chapter": "Demo: product investigation",
+    "title": "Investigate the drop, not the guess",
+    "kicker": "SCENARIO 02",
+    "narration": "Doosra scenario hai: investigate karna ki active users kyun kam hue. Usage trends, affected cohorts, related issues aur conversations ab focus mein aate hain. Sample chart mein release ke baad usage drop dikh raha hai. Lekin timing ek clue hai, cause ka proof nahi. Humein cohorts compare karne, onboarding check karne aur export errors investigate karne honge. Fix propose karne se pehle hypothesis ko real evidence se validate karna zaroori hai. I2I available demo evidence arrange karta hai; real customer ka root cause claim nahi karta.",
+    "bullets": [
+      "Usage trend and affected segments",
+      "Bring related issues into view",
+      "Timing alone does not prove causation",
+      "Validate hypotheses before proposing a fix"
+    ],
+    "visual": "usage",
+    "source_ids": [],
+    "speech_segments": [
+      {
+        "caption": "Doosra scenario hai: investigate karna ki active users kyun kam hue.",
+        "speech": "दूसरा सिनेरियो है, इन्वेस्टिगेट करना कि ऐक्टिव यूज़र्स क्यों कम हुए।"
+      },
+      {
+        "caption": "Usage trends, affected cohorts, related issues aur conversations ab focus mein aate hain.",
+        "speech": "यूसेज ट्रेंड्स, अफेक्टेड कोहोर्ट्स, रिलेटेड इश्यूज़ और कॉन्वरसेशन्स अब फोकस में आते हैं।"
+      },
+      {
+        "caption": "Sample chart mein release ke baad usage drop dikh raha hai.",
+        "speech": "सैम्पल चार्ट में रिलीज़ के बाद यूसेज ड्रॉप दिख रहा है।"
+      },
+      {
+        "caption": "Lekin timing ek clue hai, cause ka proof nahi.",
+        "speech": "लेकिन टाइमिंग एक क्लू है, कॉज़ का प्रूफ नहीं।"
+      },
+      {
+        "caption": "Humein cohorts compare karne, onboarding check karne aur export errors investigate karne honge.",
+        "speech": "हमें कोहोर्ट्स कम्पेयर करने, ऑनबोर्डिंग चेक करने और एक्सपोर्ट एरर्स इन्वेस्टिगेट करने होंगे।"
+      },
+      {
+        "caption": "Fix propose karne se pehle hypothesis ko real evidence se validate karna zaroori hai.",
+        "speech": "फिक्स प्रपोज़ करने से पहले हाइपॉथेसिस को रियल एविडेंस से वैलिडेट करना ज़रूरी है।"
+      },
+      {
+        "caption": "I2I available demo evidence arrange karta hai; real customer ka root cause claim nahi karta.",
+        "speech": "आई टू आई अवेलेबल डेमो एविडेंस अरेंज करता है, रियल कस्टमर का रूट कॉज़ क्लेम नहीं करता।"
+      }
+    ]
+  },
+  {
+    "id": "07",
+    "chapter": "Demo: project follow-up",
+    "title": "Bring overdue work into focus",
+    "kicker": "SCENARIO 03",
+    "narration": "Teesra scenario hai: overdue project work ko review karna. Jinki due date nikal chuki hai aur status incomplete hai, woh tasks saath dikhte hain. Task metrics, sample blockers aur next steps se follow-up ka context milta hai. Har task mein owner, team, deadline aur status jaise fields hain. Aap task create, search aur status update kar sakte hain; yeh backend se connected hai. Completed tasks overdue list se exclude ho jaate hain. Abhi due dates ka filtering hai; DTPS priority ranking future feature hai. Sample issues ke High aur Medium badges ko calculated task scores nahi samajhna chahiye.",
+    "bullets": [
+      "Live overdue filtering by due date and status",
+      "Owners, teams and deadlines",
+      "Create, search and update tasks",
+      "DTPS ranking is future work"
+    ],
+    "visual": "overdue",
+    "source_ids": [],
+    "speech_segments": [
+      {
+        "caption": "Teesra scenario hai: overdue project work ko review karna.",
+        "speech": "तीसरा सिनेरियो है, ओवरड्यू प्रोजेक्ट वर्क को रिव्यू करना।"
+      },
+      {
+        "caption": "Jinki due date nikal chuki hai aur status incomplete hai, woh tasks saath dikhte hain.",
+        "speech": "जिनकी ड्यू डेट निकल चुकी है और स्टेटस इनकम्प्लीट है, वो टास्क्स साथ दिखते हैं।"
+      },
+      {
+        "caption": "Task metrics, sample blockers aur next steps se follow-up ka context milta hai.",
+        "speech": "टास्क मेट्रिक्स, सैम्पल ब्लॉकर्स और नेक्स्ट स्टेप्स से फॉलो अप का कॉन्टेक्स्ट मिलता है।"
+      },
+      {
+        "caption": "Har task mein owner, team, deadline aur status jaise fields hain.",
+        "speech": "हर टास्क में ओनर, टीम, डेडलाइन और स्टेटस जैसे फील्ड्स हैं।"
+      },
+      {
+        "caption": "Aap task create, search aur status update kar sakte hain; yeh backend se connected hai.",
+        "speech": "आप टास्क क्रिएट, सर्च और स्टेटस अपडेट कर सकते हैं, यह बैकएंड से कनेक्टेड है।"
+      },
+      {
+        "caption": "Completed tasks overdue list se exclude ho jaate hain.",
+        "speech": "कम्प्लीटेड टास्क्स ओवरड्यू लिस्ट से एक्सक्लूड हो जाते हैं।"
+      },
+      {
+        "caption": "Abhi due dates ka filtering hai; DTPS priority ranking future feature hai.",
+        "speech": "अभी ड्यू डेट्स का फिल्टरिंग है, डी टी पी एस प्रायोरिटी रैंकिंग फ्यूचर फीचर है।"
+      },
+      {
+        "caption": "Sample issues ke High aur Medium badges ko calculated task scores nahi samajhna chahiye.",
+        "speech": "सैम्पल इश्यूज़ के हाई और मीडियम बैजेज़ को कैलक्युलेटेड टास्क स्कोर्स नहीं समझना चाहिए।"
+      }
+    ]
+  },
+  {
+    "id": "08",
+    "chapter": "Architecture",
+    "title": "AI plans. Validated components render.",
+    "kicker": "UNDER THE HOOD",
+    "narration": "Architecture mein responsibilities clearly separate hain. React components render karta hai aur user ki interaction state sambhalta hai. FastAPI tasks handle karta hai aur layout plan validate karta hai. Gemini 3.5 Flash-Lite intent samajhkar structured JSON plan deta hai. Plan mein available card IDs, widths aur har card ka reason hota hai. Backend allowed IDs, supported widths, duplicates aur nonempty layout check karta hai. Google ki documentation ke mutabik, valid structure meaningful values ki guarantee nahi hai. Isliye validation ke saath useful card selection aur human correction bhi zaroori hain.",
+    "bullets": [
+      "React: components and interaction state",
+      "FastAPI: data and plan validation",
+      "Gemini: structured intent-to-layout planning",
+      "Valid structure does not guarantee useful choices"
+    ],
+    "visual": "architecture",
+    "source_ids": [
+      "6"
+    ],
+    "speech_segments": [
+      {
+        "caption": "Architecture mein responsibilities clearly separate hain.",
+        "speech": "आर्किटेक्चर में रिस्पॉन्सिबिलिटीज़ क्लियरली सेपरेट हैं।"
+      },
+      {
+        "caption": "React components render karta hai aur user ki interaction state sambhalta hai.",
+        "speech": "रिऐक्ट कम्पोनेंट्स रेंडर करता है और यूज़र की इंटरऐक्शन स्टेट संभालता है।"
+      },
+      {
+        "caption": "FastAPI tasks handle karta hai aur layout plan validate karta hai.",
+        "speech": "फास्ट ए पी आई टास्क्स हैंडल करता है और लेआउट प्लान वैलिडेट करता है।"
+      },
+      {
+        "caption": "Gemini 3.5 Flash-Lite intent samajhkar structured JSON plan deta hai.",
+        "speech": "जेमिनाइ थ्री पॉइंट फाइव फ्लैश लाइट इंटेंट समझकर स्ट्रक्चर्ड जे सन प्लान देता है।"
+      },
+      {
+        "caption": "Plan mein available card IDs, widths aur har card ka reason hota hai.",
+        "speech": "प्लान में अवेलेबल कार्ड आई डीज़, विड्थ्स और हर कार्ड का रीजन होता है।"
+      },
+      {
+        "caption": "Backend allowed IDs, supported widths, duplicates aur nonempty layout check karta hai.",
+        "speech": "बैकएंड अलाउड आई डीज़, सपोर्टेड विड्थ्स, डुप्लिकेट्स और नॉन एम्प्टी लेआउट चेक करता है।"
+      },
+      {
+        "caption": "Google ki documentation ke mutabik, valid structure meaningful values ki guarantee nahi hai.",
+        "speech": "गूगल की डॉक्युमेंटेशन के मुताबिक, वैलिड स्ट्रक्चर मीनिंगफुल वैल्यूज़ की गारंटी नहीं है।"
+      },
+      {
+        "caption": "Isliye validation ke saath useful card selection aur human correction bhi zaroori hain.",
+        "speech": "इसलिए वैलिडेशन के साथ यूज़फुल कार्ड सिलेक्शन और ह्यूमन करेक्शन भी ज़रूरी हैं।"
+      }
+    ]
+  },
+  {
+    "id": "09",
+    "chapter": "Component selection and resilience",
+    "title": "A controlled catalog, useful fallback",
+    "kicker": "RELIABLE BOUNDARIES",
+    "narration": "AI thirteen predefined cards ke catalog se choose karta hai. Ismein tasks, client context, usage, cohorts, blockers aur assistant jaise components hain. Model executable interface code generate nahi karta; application hi components control karti hai. Aap bol sakte hain: overdue tasks bhi dikhao, ya next actions hata do. Follow-up current workspace ko refine karta hai, bina poori view ko replace kiye. Gemini unavailable ho ya plan invalid ho, toh explicit demo rules fallback dete hain. Successful plans five minutes cache ho sakte hain, aur task data separately fetch hota hai.",
+    "bullets": [
+      "13 predefined, reusable cards",
+      "No model-generated executable UI code",
+      "Add or remove cards with follow-up requests",
+      "Demo-rule fallback and five-minute plan cache"
+    ],
+    "visual": "catalog",
+    "source_ids": [
+      "6"
+    ],
+    "speech_segments": [
+      {
+        "caption": "AI thirteen predefined cards ke catalog se choose karta hai.",
+        "speech": "ए आई थर्टीन प्रीडिफाइन्ड कार्ड्स के कैटलॉग से चूज़ करता है।"
+      },
+      {
+        "caption": "Ismein tasks, client context, usage, cohorts, blockers aur assistant jaise components hain.",
+        "speech": "इसमें टास्क्स, क्लाइंट कॉन्टेक्स्ट, यूसेज, कोहोर्ट्स, ब्लॉकर्स और असिस्टेंट जैसे कम्पोनेंट्स हैं।"
+      },
+      {
+        "caption": "Model executable interface code generate nahi karta; application hi components control karti hai.",
+        "speech": "मॉडल एग्ज़िक्यूटेबल इंटरफेस कोड जनरेट नहीं करता, एप्लिकेशन ही कम्पोनेंट्स कंट्रोल करती है।"
+      },
+      {
+        "caption": "Aap bol sakte hain: overdue tasks bhi dikhao, ya next actions hata do.",
+        "speech": "आप बोल सकते हैं, ओवरड्यू टास्क्स भी दिखाओ, या नेक्स्ट ऐक्शन्स हटा दो।"
+      },
+      {
+        "caption": "Follow-up current workspace ko refine karta hai, bina poori view ko replace kiye.",
+        "speech": "फॉलो अप करंट वर्कस्पेस को रिफाइन करता है, बिना पूरी व्यू को रिप्लेस किए।"
+      },
+      {
+        "caption": "Gemini unavailable ho ya plan invalid ho, toh explicit demo rules fallback dete hain.",
+        "speech": "जेमिनाइ अनअवेलेबल हो या प्लान इनवैलिड हो, तो एक्सप्लिसिट डेमो रूल्स फॉलबैक देते हैं।"
+      },
+      {
+        "caption": "Successful plans five minutes cache ho sakte hain, aur task data separately fetch hota hai.",
+        "speech": "सक्सेसफुल प्लैन्स फाइव मिनिट्स कैश हो सकते हैं, और टास्क डेटा सेपरेटली फेच होता है।"
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "chapter": "User control and explanation",
+    "title": "Make the adaptation understandable",
+    "kicker": "HUMAN DIRECTION",
+    "narration": "Adaptive interface ko apne changes explain karne chahiye. Har card ke saath reason milta hai ki woh kyun surface hua. Recent changes se samajh aata hai ki kya add, remove ya retain hua. Request ambiguous ho toh system clarify kar sakta hai ki main goal kaunsa hai. User view refine kar sakta hai aur general dashboard par wapas ja sakta hai. Nayi request ke baad purana delayed response latest layout ko overwrite nahi kar sakta. Yaani adaptation ko inspect aur correct karna possible hai; control user ke paas rehta hai.",
+    "bullets": [
+      "Per-card reasons and change history",
+      "Clarify ambiguous goals",
+      "Refine the view or return to overview",
+      "Newer requests take precedence"
+    ],
+    "visual": "control",
+    "source_ids": [
+      "1",
+      "3"
+    ],
+    "speech_segments": [
+      {
+        "caption": "Adaptive interface ko apne changes explain karne chahiye.",
+        "speech": "अडैप्टिव इंटरफेस को अपने चेंजेज़ एक्सप्लेन करने चाहिए।"
+      },
+      {
+        "caption": "Har card ke saath reason milta hai ki woh kyun surface hua.",
+        "speech": "हर कार्ड के साथ रीजन मिलता है कि वो क्यों सर्फेस हुआ।"
+      },
+      {
+        "caption": "Recent changes se samajh aata hai ki kya add, remove ya retain hua.",
+        "speech": "रीसेंट चेंजेज़ से समझ आता है कि क्या ऐड, रिमूव या रिटेन हुआ।"
+      },
+      {
+        "caption": "Request ambiguous ho toh system clarify kar sakta hai ki main goal kaunsa hai.",
+        "speech": "रिक्वेस्ट ऐम्बिग्युअस हो तो सिस्टम क्लैरिफाई कर सकता है कि मेन गोल कौन सा है।"
+      },
+      {
+        "caption": "User view refine kar sakta hai aur general dashboard par wapas ja sakta hai.",
+        "speech": "यूज़र व्यू रिफाइन कर सकता है और जनरल डैशबोर्ड पर वापस जा सकता है।"
+      },
+      {
+        "caption": "Nayi request ke baad purana delayed response latest layout ko overwrite nahi kar sakta.",
+        "speech": "नई रिक्वेस्ट के बाद पुराना डिलेड रिस्पॉन्स लेटेस्ट लेआउट को ओवरराइट नहीं कर सकता।"
+      },
+      {
+        "caption": "Yaani adaptation ko inspect aur correct karna possible hai; control user ke paas rehta hai.",
+        "speech": "यानी अडैप्टेशन को इंस्पेक्ट और करेक्ट करना पॉसिबल है, कंट्रोल यूज़र के पास रहता है।"
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "chapter": "Smooth transition",
+    "title": "Continuous motion, preserved work",
+    "kicker": "THE TRANSITION",
+    "narration": "Smooth transition ka kaam browser karta hai, language model nahi. Frontend change se pehle aur baad mein cards ki positions measure karta hai. Phir native Web Animations se cards move aur resize hote hain. Retained cards ka transition lagbhag 480 milliseconds ka hai. New cards gradually enter karte hain, aur removed cards fade hote hain. Yeh animation duration hai; AI response time alag hai aur vary kar sakta hai. Rapid changes current visual position se start hote hain, isliye continuity maintain hoti hai. Reduced-motion preference par movement effects disable hote hain, accessibility ko dhyaan mein rakhkar.",
+    "bullets": [
+      "FLIP-style measurement + native Web Animations",
+      "Retained-card animation: about 480 ms",
+      "AI response time remains variable",
+      "Respect reduced-motion preferences"
+    ],
+    "visual": "motion",
+    "source_ids": [
+      "5",
+      "7"
+    ],
+    "speech_segments": [
+      {
+        "caption": "Smooth transition ka kaam browser karta hai, language model nahi.",
+        "speech": "स्मूथ ट्रांज़िशन का काम ब्राउज़र करता है, लैंग्वेज मॉडल नहीं।"
+      },
+      {
+        "caption": "Frontend change se pehle aur baad mein cards ki positions measure karta hai.",
+        "speech": "फ्रंटएंड चेंज से पहले और बाद में कार्ड्स की पोज़िशन्स मेज़र करता है।"
+      },
+      {
+        "caption": "Phir native Web Animations se cards move aur resize hote hain.",
+        "speech": "फिर नेटिव वेब ऐनिमेशन्स से कार्ड्स मूव और रीसाइज़ होते हैं।"
+      },
+      {
+        "caption": "Retained cards ka transition lagbhag 480 milliseconds ka hai.",
+        "speech": "रिटेन्ड कार्ड्स का ट्रांज़िशन लगभग फोर एटी मिलीसेकंड्स का है।"
+      },
+      {
+        "caption": "New cards gradually enter karte hain, aur removed cards fade hote hain.",
+        "speech": "न्यू कार्ड्स ग्रैजुअली एंटर करते हैं, और रिमूव्ड कार्ड्स फेड होते हैं।"
+      },
+      {
+        "caption": "Yeh animation duration hai; AI response time alag hai aur vary kar sakta hai.",
+        "speech": "यह ऐनिमेशन ड्यूरेशन है, ए आई रिस्पॉन्स टाइम अलग है और वैरी कर सकता है।"
+      },
+      {
+        "caption": "Rapid changes current visual position se start hote hain, isliye continuity maintain hoti hai.",
+        "speech": "रैपिड चेंजेज़ करंट विज़ुअल पोज़िशन से स्टार्ट होते हैं, इसलिए कंटिन्युइटी मेंटेन होती है।"
+      },
+      {
+        "caption": "Reduced-motion preference par movement effects disable hote hain, accessibility ko dhyaan mein rakhkar.",
+        "speech": "रिड्यूस्ड मोशन प्रेफरेंस पर मूवमेंट इफेक्ट्स डिसेबल होते हैं, ऐक्सेसिबिलिटी को ध्यान में रखकर।"
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "chapter": "Assistant and visual design",
+    "title": "Assistance that stays with your work",
+    "kicker": "CHAT + DESIGN",
+    "narration": "I2I AI assistant current task context aur clearly labeled demo information se answer deta hai. Suggested questions click karte hi send hote hain. Layout change hone par draft, reply aur pending request preserve rehte hain. Assistant ko kisi bhi goal view mein wapas laa sakte hain. Design mein do themes hain: present green, aur dark grey multicolor theme. Dark theme mein red, yellow, green aur light blue accents use hote hain. Theme browser mein save hoti hai, bina goal ya ongoing work reset kiye.",
+    "bullets": [
+      "Context-aware assistant and suggested questions",
+      "Replies and drafts survive rearrangement",
+      "Present green or dark-grey multicolor theme",
+      "Theme preference stays in this browser"
+    ],
+    "visual": "chat",
+    "source_ids": [
+      "3"
+    ],
+    "speech_segments": [
+      {
+        "caption": "I2I AI assistant current task context aur clearly labeled demo information se answer deta hai.",
+        "speech": "आई टू आई ए आई असिस्टेंट करंट टास्क कॉन्टेक्स्ट और क्लियरली लेबल्ड डेमो इन्फॉर्मेशन से आन्सर देता है।"
+      },
+      {
+        "caption": "Suggested questions click karte hi send hote hain.",
+        "speech": "सजेस्टेड क्वेश्चन्स क्लिक करते ही सेंड होते हैं।"
+      },
+      {
+        "caption": "Layout change hone par draft, reply aur pending request preserve rehte hain.",
+        "speech": "लेआउट चेंज होने पर ड्राफ्ट, रिप्लाई और पेंडिंग रिक्वेस्ट प्रिज़र्व रहते हैं।"
+      },
+      {
+        "caption": "Assistant ko kisi bhi goal view mein wapas laa sakte hain.",
+        "speech": "असिस्टेंट को किसी भी गोल व्यू में वापस ला सकते हैं।"
+      },
+      {
+        "caption": "Design mein do themes hain: present green, aur dark grey multicolor theme.",
+        "speech": "डिज़ाइन में दो थीम्स हैं, प्रेज़ेंट ग्रीन, और डार्क ग्रे मल्टीकलर थीम।"
+      },
+      {
+        "caption": "Dark theme mein red, yellow, green aur light blue accents use hote hain.",
+        "speech": "डार्क थीम में रेड, येलो, ग्रीन और लाइट ब्लू ऐक्सेंट्स यूज़ होते हैं।"
+      },
+      {
+        "caption": "Theme browser mein save hoti hai, bina goal ya ongoing work reset kiye.",
+        "speech": "थीम ब्राउज़र में सेव होती है, बिना गोल या ऑनगोइंग वर्क रीसेट किए।"
+      }
+    ]
+  },
+  {
+    "id": "13",
+    "chapter": "Research: adaptive interaction",
+    "title": "Adaptation needs evidence and control",
+    "kicker": "RESEARCH FOUNDATIONS · 01",
+    "narration": "Research humein inspiration ke saath caution bhi deti hai. 1999 mein Eric Horvitz ne mixed-initiative interfaces ke principles discuss kiye the. Is approach mein automation aur human direction saath kaam karte hain. Uncertain goals, sahi timing aur correction ke chances important hote hain. 2004 mein Findlater aur McGrenere ne static, adaptive aur user-adaptable menus compare kiye. Us study mein static menus adaptive menus se faster the. Zyada participants ko user-adaptable menus pasand aaye; har rearrangement automatically helpful nahi hota. Yeh dashboard ka result prove nahi karta, lekin stable shell aur user control ki value batata hai.",
+    "bullets": [
+      "Horvitz, 1999: mixed-initiative interaction",
+      "Findlater & McGrenere, 2004: adaptation has costs",
+      "Menu-study findings do not prove dashboard outcomes",
+      "Preserve continuity and test usefulness"
+    ],
+    "visual": "research",
+    "source_ids": [
+      "1",
+      "2"
+    ],
+    "speech_segments": [
+      {
+        "caption": "Research humein inspiration ke saath caution bhi deti hai.",
+        "speech": "रिसर्च हमें इंस्पिरेशन के साथ कॉशन भी देती है।"
+      },
+      {
+        "caption": "1999 mein Eric Horvitz ne mixed-initiative interfaces ke principles discuss kiye the.",
+        "speech": "नाइन्टीन नाइन्टी नाइन में एरिक हॉर्विट्ज़ ने मिक्स्ड इनिशिएटिव इंटरफेसेज़ के प्रिंसिपल्स डिस्कस किए थे।"
+      },
+      {
+        "caption": "Is approach mein automation aur human direction saath kaam karte hain.",
+        "speech": "इस अप्रोच में ऑटोमेशन और ह्यूमन डायरेक्शन साथ काम करते हैं।"
+      },
+      {
+        "caption": "Uncertain goals, sahi timing aur correction ke chances important hote hain.",
+        "speech": "अनसर्टेन गोल्स, सही टाइमिंग और करेक्शन के चान्सेज़ इम्पॉर्टेन्ट होते हैं।"
+      },
+      {
+        "caption": "2004 mein Findlater aur McGrenere ne static, adaptive aur user-adaptable menus compare kiye.",
+        "speech": "टू थाउज़ंड फोर में फाइंडलेटर और मैकग्रेनीर ने स्टैटिक, अडैप्टिव और यूज़र अडैप्टेबल मेन्यूज़ कम्पेयर किए।"
+      },
+      {
+        "caption": "Us study mein static menus adaptive menus se faster the.",
+        "speech": "उस स्टडी में स्टैटिक मेन्यूज़ अडैप्टिव मेन्यूज़ से फास्टर थे।"
+      },
+      {
+        "caption": "Zyada participants ko user-adaptable menus pasand aaye; har rearrangement automatically helpful nahi hota.",
+        "speech": "ज़्यादा पार्टिसिपेंट्स को यूज़र अडैप्टेबल मेन्यूज़ पसंद आए, हर रीअरेंजमेंट ऑटोमैटिकली हेल्पफुल नहीं होता।"
+      },
+      {
+        "caption": "Yeh dashboard ka result prove nahi karta, lekin stable shell aur user control ki value batata hai.",
+        "speech": "यह डैशबोर्ड का रिज़ल्ट प्रूव नहीं करता, लेकिन स्टेबल शेल और यूज़र कंट्रोल की वैल्यू बताता है।"
+      }
+    ]
+  },
+  {
+    "id": "14",
+    "chapter": "Research: explainability and evaluation",
+    "title": "A human-centered research direction",
+    "kicker": "RESEARCH FOUNDATIONS · 02",
+    "narration": "2019 mein Amershi aur colleagues ne human-AI interaction guidelines publish ki thi. Relevant context, easy correction, clarification aur understandable explanations inke important principles hain. Hamare card reasons aur refinement controls in principles se informed hain. W3C guidance nonessential interaction motion ko disable karne ka option support karti hai. Evaluation ke liye Hart aur Staveland ka NASA Task Load Index useful foundation hai. Isse mental demand, effort aur frustration jaise perceived workload factors assess kar sakte hain. Yeh external research hai; I2I ka user study aur measured productivity improvement abhi pending hai.",
+    "bullets": [
+      "Amershi et al., 2019: human–AI guidelines",
+      "W3C: give users control over motion",
+      "NASA-TLX: assess perceived workload",
+      "No completed I2I usability study yet"
+    ],
+    "visual": "research",
+    "source_ids": [
+      "3",
+      "4",
+      "5"
+    ],
+    "speech_segments": [
+      {
+        "caption": "2019 mein Amershi aur colleagues ne human-AI interaction guidelines publish ki thi.",
+        "speech": "ट्वेंटी नाइन्टीन में अमरशी और कॉलीग्स ने ह्यूमन ए आई इंटरऐक्शन गाइडलाइन्स पब्लिश की थी।"
+      },
+      {
+        "caption": "Relevant context, easy correction, clarification aur understandable explanations inke important principles hain.",
+        "speech": "रेलेवेंट कॉन्टेक्स्ट, ईज़ी करेक्शन, क्लैरिफिकेशन और अंडरस्टैन्डेबल एक्सप्लेनेशन्स इनके इम्पॉर्टेन्ट प्रिंसिपल्स हैं।"
+      },
+      {
+        "caption": "Hamare card reasons aur refinement controls in principles se informed hain.",
+        "speech": "हमारे कार्ड रीज़न्स और रिफाइनमेंट कंट्रोल्स इन प्रिंसिपल्स से इन्फॉर्म्ड हैं।"
+      },
+      {
+        "caption": "W3C guidance nonessential interaction motion ko disable karne ka option support karti hai.",
+        "speech": "डब्ल्यू थ्री सी गाइडेंस नॉन एसेंशियल इंटरऐक्शन मोशन को डिसेबल करने का ऑप्शन सपोर्ट करती है।"
+      },
+      {
+        "caption": "Evaluation ke liye Hart aur Staveland ka NASA Task Load Index useful foundation hai.",
+        "speech": "इवैल्युएशन के लिए हार्ट और स्टेवलैंड का नासा टास्क लोड इंडेक्स यूज़फुल फाउंडेशन है।"
+      },
+      {
+        "caption": "Isse mental demand, effort aur frustration jaise perceived workload factors assess kar sakte hain.",
+        "speech": "इससे मेंटल डिमांड, एफर्ट और फ्रस्ट्रेशन जैसे परसीव्ड वर्कलोड फैक्टर्स असेस कर सकते हैं।"
+      },
+      {
+        "caption": "Yeh external research hai; I2I ka user study aur measured productivity improvement abhi pending hai.",
+        "speech": "यह एक्सटर्नल रिसर्च है, आई टू आई का यूज़र स्टडी और मेज़र्ड प्रोडक्टिविटी इम्प्रूवमेंट अभी पेंडिंग है।"
+      }
+    ]
+  },
+  {
+    "id": "15",
+    "chapter": "Proposed task-priority research",
+    "title": "DTPS: an explainable priority proposal",
+    "kicker": "PROPOSED · NOT IMPLEMENTED",
+    "narration": "Agla proposed feature hai DTPS, yaani Dynamic Task Priority Score. Yeh abhi implemented nahi hai; formula screen par dikhaya gaya hai. Urgency ka weight 35 percent, aur business impact ka 30 percent hai. Dependency importance ko 20 percent, aur delay risk ko 15 percent weight milta hai. Har factor zero se hundred tak score leta hai. Quarterly review ke inputs 75, 80, 60 aur 70 hain. Iska result 72.75 aata hai, yaani High priority. Productivity analysis ke inputs 30, 80, 20 aur 35 hain. Sahi calculation 43.75 hai, yaani Medium priority. Proposed tiers 40, 60 aur 80 par start hote hain. Confirmed critical impact ya critical blocker ke liye top-tier override add kar sakte hain. Python deterministic score calculate karega; Gemini uncertain estimates suggest aur explain kar sakta hai. Important estimates user confirm karega; missing deadlines ya dependencies invent nahi honi chahiye. Weights aur thresholds proposed design choices hain, jinhe real team feedback se validate karna hai.",
+    "bullets": [
+      "P = 0.35U + 0.30I + 0.20D + 0.15B",
+      "Example A: 75 / 80 / 60 / 70 → 72.75 (High)",
+      "Example B: 30 / 80 / 20 / 35 → 43.75 (Medium)",
+      "Confirmed critical conditions may override the average",
+      "Proposed weights and thresholds need validation"
+    ],
+    "visual": "priority",
+    "source_ids": [],
+    "speech_segments": [
+      {
+        "caption": "Agla proposed feature hai DTPS, yaani Dynamic Task Priority Score.",
+        "speech": "अगला प्रपोज़्ड फीचर है डी टी पी एस, यानी डाइनैमिक टास्क प्रायोरिटी स्कोर।"
+      },
+      {
+        "caption": "Yeh abhi implemented nahi hai; formula screen par dikhaya gaya hai.",
+        "speech": "यह अभी इम्प्लीमेंटेड नहीं है, फॉर्म्युला स्क्रीन पर दिखाया गया है।"
+      },
+      {
+        "caption": "Urgency ka weight 35 percent, aur business impact ka 30 percent hai.",
+        "speech": "अर्जेंसी का वेट थर्टी फाइव परसेंट, और बिज़नेस इम्पैक्ट का थर्टी परसेंट है।"
+      },
+      {
+        "caption": "Dependency importance ko 20 percent, aur delay risk ko 15 percent weight milta hai.",
+        "speech": "डिपेंडेंसी इम्पॉर्टन्स को ट्वेंटी परसेंट, और डिले रिस्क को फिफ्टीन परसेंट वेट मिलता है।"
+      },
+      {
+        "caption": "Har factor zero se hundred tak score leta hai.",
+        "speech": "हर फैक्टर ज़ीरो से हंड्रेड तक स्कोर लेता है।"
+      },
+      {
+        "caption": "Quarterly review ke inputs 75, 80, 60 aur 70 hain.",
+        "speech": "क्वार्टरली रिव्यू के इनपुट्स सेवेंटी फाइव, एटी, सिक्स्टी और सेवेंटी हैं।"
+      },
+      {
+        "caption": "Iska result 72.75 aata hai, yaani High priority.",
+        "speech": "इसका रिज़ल्ट सेवेंटी टू पॉइंट सेवन फाइव आता है, यानी हाई प्रायोरिटी।"
+      },
+      {
+        "caption": "Productivity analysis ke inputs 30, 80, 20 aur 35 hain.",
+        "speech": "प्रोडक्टिविटी अनैलिसिस के इनपुट्स थर्टी, एटी, ट्वेंटी और थर्टी फाइव हैं।"
+      },
+      {
+        "caption": "Sahi calculation 43.75 hai, yaani Medium priority.",
+        "speech": "सही कैलक्युलेशन फॉर्टी थ्री पॉइंट सेवन फाइव है, यानी मीडियम प्रायोरिटी।"
+      },
+      {
+        "caption": "Proposed tiers 40, 60 aur 80 par start hote hain.",
+        "speech": "प्रपोज़्ड टियर्स फॉर्टी, सिक्स्टी और एटी पर स्टार्ट होते हैं।"
+      },
+      {
+        "caption": "Confirmed critical impact ya critical blocker ke liye top-tier override add kar sakte hain.",
+        "speech": "कन्फर्म्ड क्रिटिकल इम्पैक्ट या क्रिटिकल ब्लॉकर के लिए टॉप टियर ओवरराइड ऐड कर सकते हैं।"
+      },
+      {
+        "caption": "Python deterministic score calculate karega; Gemini uncertain estimates suggest aur explain kar sakta hai.",
+        "speech": "पाइथन डिटर्मिनिस्टिक स्कोर कैलक्युलेट करेगा, जेमिनाइ अनसर्टेन एस्टिमेट्स सजेस्ट और एक्सप्लेन कर सकता है।"
+      },
+      {
+        "caption": "Important estimates user confirm karega; missing deadlines ya dependencies invent nahi honi chahiye.",
+        "speech": "इम्पॉर्टेन्ट एस्टिमेट्स यूज़र कन्फर्म करेगा, मिसिंग डेडलाइन्स या डिपेंडेंसीज़ इन्वेंट नहीं होनी चाहिए।"
+      },
+      {
+        "caption": "Weights aur thresholds proposed design choices hain, jinhe real team feedback se validate karna hai.",
+        "speech": "वेट्स और थ्रेशोल्ड्स प्रपोज़्ड डिज़ाइन चॉइसेज़ हैं, जिन्हें रियल टीम फीडबैक से वैलिडेट करना है।"
+      }
+    ]
+  },
+  {
+    "id": "16",
+    "chapter": "Uniqueness, limitations and next steps",
+    "title": "From prototype to tested impact",
+    "kicker": "THE NEXT CHAPTER",
+    "narration": "I2I ki uniqueness in features ke combination mein hai. Natural-language intent, single adaptive canvas, useful tools, explanations aur preserved working state. Controlled motion is experience ko continuous banane mein help karta hai. Aaj business context sample data hai, aur backend restart par in-memory tasks reset hote hain. Next steps hain persistent storage, real integrations aur validated priority scoring. Fixed dashboard ke against same tasks aur same data se controlled comparison karna hoga. Accuracy, completion time, navigation effort, workload aur unwanted changes measure karne honge. Failures, rapid refinements aur reduced motion ko bhi evaluation mein include karna chahiye. Vision simple hai: apna goal bataiye, aur workspace ko aapke kaam ke hisaab se adapt hone dijiye.",
+    "bullets": [
+      "Distinctive combination; no world-first claim",
+      "Today: sample context and in-memory tasks",
+      "Next: persistence, integrations and validated priorities",
+      "Evaluate accuracy, time, workload and unwanted changes",
+      "A workspace that follows the user's goal"
+    ],
+    "visual": "closing",
+    "source_ids": [
+      "2",
+      "4"
+    ],
+    "speech_segments": [
+      {
+        "caption": "I2I ki uniqueness in features ke combination mein hai.",
+        "speech": "आई टू आई की यूनिकनेस इन फीचर्स के कॉम्बिनेशन में है।"
+      },
+      {
+        "caption": "Natural-language intent, single adaptive canvas, useful tools, explanations aur preserved working state.",
+        "speech": "नैचुरल लैंग्वेज इंटेंट, सिंगल अडैप्टिव कैनवस, यूज़फुल टूल्स, एक्सप्लेनेशन्स और प्रिज़र्व्ड वर्किंग स्टेट।"
+      },
+      {
+        "caption": "Controlled motion is experience ko continuous banane mein help karta hai.",
+        "speech": "कंट्रोल्ड मोशन इस एक्सपीरियंस को कंटिन्युअस बनाने में हेल्प करता है।"
+      },
+      {
+        "caption": "Aaj business context sample data hai, aur backend restart par in-memory tasks reset hote hain.",
+        "speech": "आज बिज़नेस कॉन्टेक्स्ट सैम्पल डेटा है, और बैकएंड रीस्टार्ट पर इन मेमोरी टास्क्स रीसेट होते हैं।"
+      },
+      {
+        "caption": "Next steps hain persistent storage, real integrations aur validated priority scoring.",
+        "speech": "नेक्स्ट स्टेप्स हैं परसिस्टेंट स्टोरेज, रियल इंटिग्रेशन्स और वैलिडेटेड प्रायोरिटी स्कोरिंग।"
+      },
+      {
+        "caption": "Fixed dashboard ke against same tasks aur same data se controlled comparison karna hoga.",
+        "speech": "फिक्स्ड डैशबोर्ड के अगेंस्ट सेम टास्क्स और सेम डेटा से कंट्रोल्ड कम्पैरिज़न करना होगा।"
+      },
+      {
+        "caption": "Accuracy, completion time, navigation effort, workload aur unwanted changes measure karne honge.",
+        "speech": "ऐक्युरेसी, कम्प्लीशन टाइम, नैविगेशन एफर्ट, वर्कलोड और अनवॉन्टेड चेंजेज़ मेज़र करने होंगे।"
+      },
+      {
+        "caption": "Failures, rapid refinements aur reduced motion ko bhi evaluation mein include karna chahiye.",
+        "speech": "फेल्यर्स, रैपिड रिफाइनमेंट्स और रिड्यूस्ड मोशन को भी इवैल्युएशन में इन्क्लूड करना चाहिए।"
+      },
+      {
+        "caption": "Vision simple hai: apna goal bataiye, aur workspace ko aapke kaam ke hisaab se adapt hone dijiye.",
+        "speech": "विज़न सिंपल है, अपना गोल बताइए, और वर्कस्पेस को आपके काम के हिसाब से अडैप्ट होने दीजिए।"
+      }
+    ]
+  }
+]

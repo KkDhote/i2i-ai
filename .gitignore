@@ -6,3 +6,5 @@ backend/.venv/
 backend/.venv-new/
 __pycache__/
 *.py[cod]
+backend/workspace.sqlite3*
+backend/task-migration.json

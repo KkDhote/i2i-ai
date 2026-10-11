@@ -1,0 +1,162 @@
+[
+  {
+    "id": "01",
+    "chapter": "Introduction",
+    "title": "Your goal. Your workspace.",
+    "kicker": "I2I · INTELLIGENCE TO IMPACT",
+    "narration": "Imagine opening your work dashboard and saying, I need to prepare for tomorrow's client meeting. Instead of sending you through menus, the page brings the client, conversations, issues and talking points into view. That is the idea behind I two I, Intelligence to Impact: an adaptive A I workspace built for HackWave three point zero. This video explains the problem, our proposed solution, the working prototype, its research foundations and the next steps.",
+    "bullets": ["Intent to interface", "Built for HackWave 3.0", "One goal reshapes one workspace"],
+    "visual": "intro",
+    "source_ids": []
+  },
+  {
+    "id": "02",
+    "chapter": "Problem statement",
+    "title": "Why should work start with menus?",
+    "kicker": "THE PROBLEM",
+    "narration": "Modern applications organize information into fixed dashboards, menus, filters and workflows. But people's goals change. Preparing a meeting requires different evidence from investigating a usage drop or following up on overdue work. The user must translate a real need into a sequence of interface operations, find scattered information and assemble the context. Our problem statement challenges that pattern: can an interface adapt to the user's goal, instead of making the user adapt to the interface?",
+    "bullets": ["Fixed screens; changing goals", "Context scattered across tools", "Navigation before meaningful action", "The interface should follow intent"],
+    "visual": "problem",
+    "source_ids": []
+  },
+  {
+    "id": "03",
+    "chapter": "Aim and proposed solution",
+    "title": "Turn intent into useful tools",
+    "kicker": "THE AIM",
+    "narration": "Our aim is to bring relevant information and useful actions together in a coherent, accessible workspace. The proposed solution has a simple loop: understand the goal, clarify uncertainty, select available components, arrange them, and explain the changes. It must remain usable when the goal changes again. Success means more than generating a page of text. The interface should give the user working tools, while preserving familiar controls, consistent design and the ability to correct the system.",
+    "bullets": ["Understand and clarify intent", "Select relevant information and tools", "Adapt while preserving continuity", "Explain why the interface changed"],
+    "visual": "aim",
+    "source_ids": ["1", "3"]
+  },
+  {
+    "id": "04",
+    "chapter": "The working workspace",
+    "title": "Start familiar. Change with purpose.",
+    "kicker": "THE PROTOTYPE",
+    "narration": "I two I begins with a general dashboard. The left panel holds the workspace goal, suggested scenarios, refinements and recent changes. The main canvas contains overview metrics, a performance card, the assistant and team tasks. You can enter your own goal or choose a demo. The page then selects and rearranges cards around that focus. Search, task drafts and assistant state stay with you. This is one continuing workspace, rather than a separate page for every task.",
+    "bullets": ["Intent panel + adaptive canvas", "General dashboard as a familiar starting point", "Goal examples and follow-up refinements", "Drafts and search survive layout changes"],
+    "visual": "workspace",
+    "source_ids": []
+  },
+  {
+    "id": "05",
+    "chapter": "Demo: client meeting",
+    "title": "Walk into the meeting prepared",
+    "kicker": "SCENARIO 01",
+    "narration": "First, prepare a client meeting. The workspace brings together a client overview, recent conversations, open issues, product usage, an agenda and suggested next actions. Our demonstration account, Northstar Labs, has onboarding concerns and slower exports. Those details are explicitly sample data. The aim is to support a practical conversation: what does the client need, what evidence do we have, and who owns the follow-up? Suggested actions open the real task form so an idea can become assigned work.",
+    "bullets": ["Client context and recent conversations", "Open issues, usage and meeting brief", "Sample account: Northstar Labs", "Turn next actions into owned tasks"],
+    "visual": "meeting",
+    "source_ids": []
+  },
+  {
+    "id": "06",
+    "chapter": "Demo: product investigation",
+    "title": "Investigate the drop, not the guess",
+    "kicker": "SCENARIO 02",
+    "narration": "Next, investigate why active users dropped. Usage trends and affected segments move into focus, alongside relevant issues, conversations and actions. The sample chart shows a drop following a release. That sequence is a clue, not proof of causation. A responsible investigation compares cohorts, checks onboarding and export errors, and validates hypotheses before proposing a fix. I two I organizes the evidence available in the demo; it does not claim to have discovered a real customer's root cause.",
+    "bullets": ["Usage trend and affected segments", "Bring related issues into view", "Timing alone does not prove causation", "Validate hypotheses before proposing a fix"],
+    "visual": "usage",
+    "source_ids": []
+  },
+  {
+    "id": "07",
+    "chapter": "Demo: project follow-up",
+    "title": "Bring overdue work into focus",
+    "kicker": "SCENARIO 03",
+    "narration": "The third scenario is overdue project work. Incomplete tasks past their due dates appear together with task metrics, sample blockers and suggested next steps. Task records include an owner, team, deadline and status. You can search, create a task and update its status through the backend. Completed tasks are excluded from overdue work. The current prototype recognizes overdue dates, but it does not yet calculate the dynamic priority score discussed later. Its sample issue badges are not computed task priorities.",
+    "bullets": ["Live overdue filtering by due date and status", "Owners, teams and deadlines", "Create, search and update tasks", "DTPS ranking is future work"],
+    "visual": "overdue",
+    "source_ids": []
+  },
+  {
+    "id": "08",
+    "chapter": "Architecture",
+    "title": "AI plans. Validated components render.",
+    "kicker": "UNDER THE HOOD",
+    "narration": "The architecture separates three responsibilities. React renders the workspace and keeps interaction state. Fast A P I handles tasks and validates layout plans. Gemini three point five Flash Lite interprets intent and returns structured J S O N describing available cards, widths and reasons. The backend checks allowed identifiers, supported widths, duplicate cards and nonempty layouts. Google's documentation makes an important distinction: structured output can constrain format, but cannot guarantee meaningful values. Validation and human correction therefore remain essential.",
+    "bullets": ["React: components and interaction state", "FastAPI: data and plan validation", "Gemini: structured intent-to-layout planning", "Valid structure does not guarantee useful choices"],
+    "visual": "architecture",
+    "source_ids": ["6"]
+  },
+  {
+    "id": "09",
+    "chapter": "Component selection and resilience",
+    "title": "A controlled catalog, useful fallback",
+    "kicker": "RELIABLE BOUNDARIES",
+    "narration": "The model chooses from thirteen predefined cards, including tasks, client context, usage, cohorts, blockers and the assistant. It does not generate executable interface code. This keeps the design and available actions under application control. Follow-up requests can add or remove cards while retaining the current goal. If Gemini is unavailable or a response fails validation, explicit demo rules provide a fallback. Successful plans can be cached for five minutes, while task data is fetched separately.",
+    "bullets": ["13 predefined, reusable cards", "No model-generated executable UI code", "Add or remove cards with follow-up requests", "Demo-rule fallback and five-minute plan cache"],
+    "visual": "catalog",
+    "source_ids": ["6"]
+  },
+  {
+    "id": "10",
+    "chapter": "User control and explanation",
+    "title": "Make the adaptation understandable",
+    "kicker": "HUMAN DIRECTION",
+    "narration": "An adaptive interface should explain itself. Each card has a reason for appearing, and recent changes show what was added, removed or retained. When a request is ambiguous, the system can ask which goal should lead. You can refine the view or return to the overview. We also keep newer instructions in charge: older layout responses cannot overwrite a more recent request. These controls make adaptation inspectable and correctable, rather than something the user must simply accept.",
+    "bullets": ["Per-card reasons and change history", "Clarify ambiguous goals", "Refine the view or return to overview", "Newer requests take precedence"],
+    "visual": "control",
+    "source_ids": ["1", "3"]
+  },
+  {
+    "id": "11",
+    "chapter": "Smooth transition",
+    "title": "Continuous motion, preserved work",
+    "kicker": "THE TRANSITION",
+    "narration": "Smoothness comes from browser animation, not from asking the language model to animate. The frontend measures card positions before and after a change, then animates between them with native Web Animations. Retained cards move and resize over roughly four hundred and eighty milliseconds; new cards enter and removed cards fade. That duration is separate from A I response time, which varies. Interrupted changes begin from current visual positions. Reduced-motion preferences disable movement effects, because accessible control matters as much as visual polish.",
+    "bullets": ["FLIP-style measurement + native Web Animations", "Retained-card animation: about 480 ms", "AI response time remains variable", "Respect reduced-motion preferences"],
+    "visual": "motion",
+    "source_ids": ["5", "7"]
+  },
+  {
+    "id": "12",
+    "chapter": "Assistant and visual design",
+    "title": "Assistance that stays with your work",
+    "kicker": "CHAT + DESIGN",
+    "narration": "The I two I A I assistant answers questions using current task context and clearly identified demo information. Suggested questions send immediately. Drafts, replies and pending requests survive layout changes, and the assistant can be brought back into any view. Two themes support the same workspace: the present green design and a dark grey design with red, yellow, green and light blue accents. Theme selection is saved in the browser without resetting the goal or ongoing work.",
+    "bullets": ["Context-aware assistant and suggested questions", "Replies and drafts survive rearrangement", "Present green or dark-grey multicolor theme", "Theme preference stays in this browser"],
+    "visual": "chat",
+    "source_ids": ["3"]
+  },
+  {
+    "id": "13",
+    "chapter": "Research: adaptive interaction",
+    "title": "Adaptation needs evidence and control",
+    "kicker": "RESEARCH FOUNDATIONS · 01",
+    "narration": "Our literature review offers both inspiration and caution. In nineteen ninety-nine, Eric Horvitz described mixed-initiative interfaces that combine automation with direct human control, including attention to uncertain goals and opportunities for correction. In two thousand four, Leah Findlater and Joanna McGrenere compared static, adaptive and user-adaptable menus. In that study, static menus were faster than adaptive menus, and most participants preferred user-adaptable menus. These findings do not directly predict our dashboard's performance. They explain why we preserve a stable shell, retain state and give users explicit control over changes.",
+    "bullets": ["Horvitz, 1999: mixed-initiative interaction", "Findlater & McGrenere, 2004: adaptation has costs", "Menu-study findings do not prove dashboard outcomes", "Preserve continuity and test usefulness"],
+    "visual": "research",
+    "source_ids": ["1", "2"]
+  },
+  {
+    "id": "14",
+    "chapter": "Research: explainability and evaluation",
+    "title": "A human-centered research direction",
+    "kicker": "RESEARCH FOUNDATIONS · 02",
+    "narration": "Amershi and colleagues' twenty nineteen human–A I interaction guidelines emphasize relevant context, easy correction, clarification and understandable explanations. These principles inform our card reasons and refinement controls. W three C guidance supports disabling nonessential interaction motion, which informs reduced-motion behavior. For evaluation, Hart and Staveland's NASA Task Load Index provides an established way to assess perceived workload, including mental demand, effort and frustration. These are external research foundations. I two I has not yet completed a user study or demonstrated a measured productivity improvement.",
+    "bullets": ["Amershi et al., 2019: human–AI guidelines", "W3C: give users control over motion", "NASA-TLX: assess perceived workload", "No completed I2I usability study yet"],
+    "visual": "research",
+    "source_ids": ["3", "4", "5"]
+  },
+  {
+    "id": "15",
+    "chapter": "Proposed task-priority research",
+    "title": "DTPS: an explainable priority proposal",
+    "kicker": "PROPOSED · NOT IMPLEMENTED",
+    "narration": "A proposed next feature is the Dynamic Task Priority Score. It combines zero point three five times urgency, zero point three zero times business impact, zero point two zero times dependency importance, and zero point one five times delay risk. Each factor runs from zero to one hundred. For a quarterly review, values of seventy-five, eighty, sixty and seventy produce seventy-two point seven five: high priority. For a productivity analysis, thirty, eighty, twenty and thirty-five produce forty-three point seven five: medium priority. Proposed tiers begin at forty, sixty and eighty. Confirmed critical impact or blockers could override the average. Python would calculate scores; Gemini could suggest uncertain estimates for user confirmation and explain them. Missing deadlines or dependencies would stay explicit. The weights and thresholds require validation.",
+    "bullets": ["P = 0.35U + 0.30I + 0.20D + 0.15B", "Example A: 75 / 80 / 60 / 70 → 72.75 (High)", "Example B: 30 / 80 / 20 / 35 → 43.75 (Medium)", "Confirmed critical conditions may override the average", "Proposed weights and thresholds need validation"],
+    "visual": "priority",
+    "source_ids": []
+  },
+  {
+    "id": "16",
+    "chapter": "Uniqueness, limitations and next steps",
+    "title": "From prototype to tested impact",
+    "kicker": "THE NEXT CHAPTER",
+    "narration": "I two I's distinction is the combination: natural-language intent, one adaptive canvas, reusable tools, explanations, preserved state and controlled motion. We are not claiming a world-first invention. Today, business context is sample data and tasks reset when the backend restarts. Next steps include persistent storage, real integrations and controlled comparison with a fixed dashboard using equivalent tasks. We should measure completion accuracy, time, navigation effort, perceived workload and unwanted changes, including failures and reduced motion. The vision is clear: state the work you need to do, and let the workspace help you do it.",
+    "bullets": ["Distinctive combination; no world-first claim", "Today: sample context and in-memory tasks", "Next: persistence, integrations and validated priorities", "Evaluate accuracy, time, workload and unwanted changes", "A workspace that follows the user's goal"],
+    "visual": "closing",
+    "source_ids": ["2", "4"]
+  }
+]

@@ -1,0 +1,138 @@
+@01
+Sochiye, aap dashboard kholkar bolte hain: kal ki client meeting ki taiyaari karni hai.||सोचिए, आप डैशबोर्ड खोलकर बोलते हैं, कल की क्लाइंट मीटिंग की तैयारी करनी है।
+Menus dhoondhne ke bajaye, zaroori client context aur issues ek screen par aa jaate hain.||मेन्यूज़ ढूँढने के बजाय, ज़रूरी क्लाइंट कॉन्टेक्स्ट और इश्यूज़ एक स्क्रीन पर आ जाते हैं।
+Yahi idea hai I2I, yaani Intelligence to Impact ka.||यही आइडिया है आई टू आई, यानी इंटेलिजेंस टू इम्पैक्ट का।
+Yeh HackWave 3.0 ke liye bana ek adaptive AI workspace hai.||यह हैकवेव थ्री पॉइंट ज़ीरो के लिए बना एक अडैप्टिव ए आई वर्कस्पेस है।
+Is video mein problem, aim, solution, working features aur research ko detail mein samjhenge.||इस वीडियो में प्रॉब्लम, ऐम, सॉल्यूशन, वर्किंग फीचर्स और रिसर्च को डिटेल में समझेंगे।
+Saath hi dekhenge ki project ki uniqueness kya hai, aur aage kya banana hai.||साथ ही देखेंगे कि प्रोजेक्ट की यूनिकनेस क्या है, और आगे क्या बनाना है।
+@02
+Aaj ke applications fixed dashboards, menus, filters aur workflows ke around bane hote hain.||आज के एप्लिकेशन्स फिक्स्ड डैशबोर्ड्स, मेन्यूज़, फिल्टर्स और वर्कफ्लोज़ के अराउंड बने होते हैं।
+Lekin user ka goal har baar ek jaisa nahi hota.||लेकिन यूज़र का गोल हर बार एक जैसा नहीं होता।
+Client meeting, usage investigation aur overdue work ke liye alag information chahiye.||क्लाइंट मीटिंग, यूसेज इन्वेस्टिगेशन और ओवरड्यू वर्क के लिए अलग इन्फॉर्मेशन चाहिए।
+User ko pehle sochna padta hai: kaunsa menu, kaunsa filter, aur kaunsi report kholun?||यूज़र को पहले सोचना पड़ता है, कौन सा मेन्यू, कौन सा फिल्टर, और कौन सी रिपोर्ट खोलूँ?
+Phir alag jagahon se context jodna padta hai, tab actual kaam shuru hota hai.||फिर अलग जगहों से कॉन्टेक्स्ट जोड़ना पड़ता है, तब ऐक्चुअल काम शुरू होता है।
+Hamari problem statement hai: interface ko user ke current intent ke hisaab se adapt karna.||हमारी प्रॉब्लम स्टेटमेंट है, इंटरफेस को यूज़र के करंट इंटेंट के हिसाब से अडैप्ट करना।
+Matlab, goal badle toh relevant tools aur information bhi screen par badal sakein.||मतलब, गोल बदले तो रेलेवेंट टूल्स और इन्फॉर्मेशन भी स्क्रीन पर बदल सकें।
+@03
+Project ka aim hai relevant information aur useful actions ko ek coherent workspace mein laana.||प्रोजेक्ट का ऐम है रेलेवेंट इन्फॉर्मेशन और यूज़फुल ऐक्शन्स को एक कोहीरेंट वर्कस्पेस में लाना।
+Proposed solution ka flow hai: intent samjho, ambiguity clarify karo, phir useful components select karo.||प्रपोज़्ड सॉल्यूशन का फ्लो है, इंटेंट समझो, ऐम्बिग्युइटी क्लैरिफाई करो, फिर यूज़फुल कम्पोनेंट्स सेलेक्ट करो।
+Uske baad layout arrange karo, aur batao ki yeh information kyun dikhayi gayi.||उसके बाद लेआउट अरेंज करो, और बताओ कि यह इन्फॉर्मेशन क्यों दिखाई गई।
+Goal dobara badle toh workspace dobara adapt ho, bina user ka ongoing kaam khoye.||गोल दोबारा बदले तो वर्कस्पेस दोबारा अडैप्ट हो, बिना यूज़र का ऑनगोइंग काम खोए।
+Sirf AI ka likha hua text nahi, balki actual task tools aur meaningful cards chahiye.||सिर्फ ए आई का लिखा हुआ टेक्स्ट नहीं, बल्कि ऐक्चुअल टास्क टूल्स और मीनिंगफुल कार्ड्स चाहिए।
+Design consistent rahe, controls familiar rahein, aur user system ko correct kar sake.||डिज़ाइन कंसिस्टेंट रहे, कंट्रोल्स फ़मिलियर रहें, और यूज़र सिस्टम को करेक्ट कर सके।
+@04
+I2I ek general dashboard se start hota hai, jo user ko familiar starting point deta hai.||आई टू आई एक जनरल डैशबोर्ड से स्टार्ट होता है, जो यूज़र को फ़मिलियर स्टार्टिंग पॉइंट देता है।
+Left panel mein workspace goal, suggested scenarios, refinements aur recent changes milte hain.||लेफ्ट पैनल में वर्कस्पेस गोल, सजेस्टेड सिनेरियोज़, रिफाइनमेंट्स और रीसेंट चेंजेज़ मिलते हैं।
+Right side ke adaptive canvas mein metrics, performance, assistant aur team tasks dikhte hain.||राइट साइड के अडैप्टिव कैनवस में मेट्रिक्स, परफॉर्मेंस, असिस्टेंट और टीम टास्क्स दिखते हैं।
+Aap apna goal likh sakte hain, ya ready demo choose kar sakte hain.||आप अपना गोल लिख सकते हैं, या रेडी डेमो चूज़ कर सकते हैं।
+Phir wahi page relevant cards select karke unhe rearrange karta hai.||फिर वही पेज रेलेवेंट कार्ड्स सेलेक्ट करके उन्हें रीअरेंज करता है।
+Search, task draft aur assistant state preserve rehte hain; har feature ke liye naya page nahi.||सर्च, टास्क ड्राफ्ट और असिस्टेंट स्टेट प्रिज़र्व रहते हैं, हर फीचर के लिए नया पेज नहीं।
+@05
+Pehla scenario hai: kal ki client meeting ke liye prepare karna.||पहला सिनेरियो है, कल की क्लाइंट मीटिंग के लिए प्रिपेयर करना।
+Client overview, recent conversations, open issues aur meeting brief ek jagah aate hain.||क्लाइंट ओवरव्यू, रीसेंट कॉन्वरसेशन्स, ओपन इश्यूज़ और मीटिंग ब्रीफ एक जगह आते हैं।
+Usage aur next actions jaise relevant cards bhi meeting preparation mein help kar sakte hain.||यूसेज और नेक्स्ट ऐक्शन्स जैसे रेलेवेंट कार्ड्स भी मीटिंग प्रिपरेशन में हेल्प कर सकते हैं।
+Demo account Northstar Labs mein onboarding concerns aur slower exports dikhaye gaye hain.||डेमो अकाउंट नॉर्थस्टार लैब्स में ऑनबोर्डिंग कंसर्न्स और स्लोअर एक्सपोर्ट्स दिखाए गए हैं।
+Yeh clearly sample data hai; kisi real customer's live system ka connection nahi hai.||यह क्लियरली सैम्पल डेटा है, किसी रियल कस्टमर के लाइव सिस्टम का कनेक्शन नहीं है।
+Meeting mein hum pooch sakte hain: client ko kya chahiye, evidence kya hai, owner kaun hai?||मीटिंग में हम पूछ सकते हैं, क्लाइंट को क्या चाहिए, एविडेंस क्या है, ओनर कौन है?
+Suggested next action real task form kholta hai, taaki follow-up ko assign kiya ja sake.||सजेस्टेड नेक्स्ट ऐक्शन रियल टास्क फॉर्म खोलता है, ताकि फॉलो अप को असाइन किया जा सके।
+@06
+Doosra scenario hai: investigate karna ki active users kyun kam hue.||दूसरा सिनेरियो है, इन्वेस्टिगेट करना कि ऐक्टिव यूज़र्स क्यों कम हुए।
+Usage trends, affected cohorts, related issues aur conversations ab focus mein aate hain.||यूसेज ट्रेंड्स, अफेक्टेड कोहोर्ट्स, रिलेटेड इश्यूज़ और कॉन्वरसेशन्स अब फोकस में आते हैं।
+Sample chart mein release ke baad usage drop dikh raha hai.||सैम्पल चार्ट में रिलीज़ के बाद यूसेज ड्रॉप दिख रहा है।
+Lekin timing ek clue hai, cause ka proof nahi.||लेकिन टाइमिंग एक क्लू है, कॉज़ का प्रूफ नहीं।
+Humein cohorts compare karne, onboarding check karne aur export errors investigate karne honge.||हमें कोहोर्ट्स कम्पेयर करने, ऑनबोर्डिंग चेक करने और एक्सपोर्ट एरर्स इन्वेस्टिगेट करने होंगे।
+Fix propose karne se pehle hypothesis ko real evidence se validate karna zaroori hai.||फिक्स प्रपोज़ करने से पहले हाइपॉथेसिस को रियल एविडेंस से वैलिडेट करना ज़रूरी है।
+I2I available demo evidence arrange karta hai; real customer ka root cause claim nahi karta.||आई टू आई अवेलेबल डेमो एविडेंस अरेंज करता है, रियल कस्टमर का रूट कॉज़ क्लेम नहीं करता।
+@07
+Teesra scenario hai: overdue project work ko review karna.||तीसरा सिनेरियो है, ओवरड्यू प्रोजेक्ट वर्क को रिव्यू करना।
+Jinki due date nikal chuki hai aur status incomplete hai, woh tasks saath dikhte hain.||जिनकी ड्यू डेट निकल चुकी है और स्टेटस इनकम्प्लीट है, वो टास्क्स साथ दिखते हैं।
+Task metrics, sample blockers aur next steps se follow-up ka context milta hai.||टास्क मेट्रिक्स, सैम्पल ब्लॉकर्स और नेक्स्ट स्टेप्स से फॉलो अप का कॉन्टेक्स्ट मिलता है।
+Har task mein owner, team, deadline aur status jaise fields hain.||हर टास्क में ओनर, टीम, डेडलाइन और स्टेटस जैसे फील्ड्स हैं।
+Aap task create, search aur status update kar sakte hain; yeh backend se connected hai.||आप टास्क क्रिएट, सर्च और स्टेटस अपडेट कर सकते हैं, यह बैकएंड से कनेक्टेड है।
+Completed tasks overdue list se exclude ho jaate hain.||कम्प्लीटेड टास्क्स ओवरड्यू लिस्ट से एक्सक्लूड हो जाते हैं।
+Abhi due dates ka filtering hai; DTPS priority ranking future feature hai.||अभी ड्यू डेट्स का फिल्टरिंग है, डी टी पी एस प्रायोरिटी रैंकिंग फ्यूचर फीचर है।
+Sample issues ke High aur Medium badges ko calculated task scores nahi samajhna chahiye.||सैम्पल इश्यूज़ के हाई और मीडियम बैजेज़ को कैलक्युलेटेड टास्क स्कोर्स नहीं समझना चाहिए।
+@08
+Architecture mein responsibilities clearly separate hain.||आर्किटेक्चर में रिस्पॉन्सिबिलिटीज़ क्लियरली सेपरेट हैं।
+React components render karta hai aur user ki interaction state sambhalta hai.||रिऐक्ट कम्पोनेंट्स रेंडर करता है और यूज़र की इंटरऐक्शन स्टेट संभालता है।
+FastAPI tasks handle karta hai aur layout plan validate karta hai.||फास्ट ए पी आई टास्क्स हैंडल करता है और लेआउट प्लान वैलिडेट करता है।
+Gemini 3.5 Flash-Lite intent samajhkar structured JSON plan deta hai.||जेमिनाइ थ्री पॉइंट फाइव फ्लैश लाइट इंटेंट समझकर स्ट्रक्चर्ड जे सन प्लान देता है।
+Plan mein available card IDs, widths aur har card ka reason hota hai.||प्लान में अवेलेबल कार्ड आई डीज़, विड्थ्स और हर कार्ड का रीजन होता है।
+Backend allowed IDs, supported widths, duplicates aur nonempty layout check karta hai.||बैकएंड अलाउड आई डीज़, सपोर्टेड विड्थ्स, डुप्लिकेट्स और नॉन एम्प्टी लेआउट चेक करता है।
+Google ki documentation ke mutabik, valid structure meaningful values ki guarantee nahi hai.||गूगल की डॉक्युमेंटेशन के मुताबिक, वैलिड स्ट्रक्चर मीनिंगफुल वैल्यूज़ की गारंटी नहीं है।
+Isliye validation ke saath useful card selection aur human correction bhi zaroori hain.||इसलिए वैलिडेशन के साथ यूज़फुल कार्ड सिलेक्शन और ह्यूमन करेक्शन भी ज़रूरी हैं।
+@09
+AI thirteen predefined cards ke catalog se choose karta hai.||ए आई थर्टीन प्रीडिफाइन्ड कार्ड्स के कैटलॉग से चूज़ करता है।
+Ismein tasks, client context, usage, cohorts, blockers aur assistant jaise components hain.||इसमें टास्क्स, क्लाइंट कॉन्टेक्स्ट, यूसेज, कोहोर्ट्स, ब्लॉकर्स और असिस्टेंट जैसे कम्पोनेंट्स हैं।
+Model executable interface code generate nahi karta; application hi components control karti hai.||मॉडल एग्ज़िक्यूटेबल इंटरफेस कोड जनरेट नहीं करता, एप्लिकेशन ही कम्पोनेंट्स कंट्रोल करती है।
+Aap bol sakte hain: overdue tasks bhi dikhao, ya next actions hata do.||आप बोल सकते हैं, ओवरड्यू टास्क्स भी दिखाओ, या नेक्स्ट ऐक्शन्स हटा दो।
+Follow-up current workspace ko refine karta hai, bina poori view ko replace kiye.||फॉलो अप करंट वर्कस्पेस को रिफाइन करता है, बिना पूरी व्यू को रिप्लेस किए।
+Gemini unavailable ho ya plan invalid ho, toh explicit demo rules fallback dete hain.||जेमिनाइ अनअवेलेबल हो या प्लान इनवैलिड हो, तो एक्सप्लिसिट डेमो रूल्स फॉलबैक देते हैं।
+Successful plans five minutes cache ho sakte hain, aur task data separately fetch hota hai.||सक्सेसफुल प्लैन्स फाइव मिनिट्स कैश हो सकते हैं, और टास्क डेटा सेपरेटली फेच होता है।
+@10
+Adaptive interface ko apne changes explain karne chahiye.||अडैप्टिव इंटरफेस को अपने चेंजेज़ एक्सप्लेन करने चाहिए।
+Har card ke saath reason milta hai ki woh kyun surface hua.||हर कार्ड के साथ रीजन मिलता है कि वो क्यों सर्फेस हुआ।
+Recent changes se samajh aata hai ki kya add, remove ya retain hua.||रीसेंट चेंजेज़ से समझ आता है कि क्या ऐड, रिमूव या रिटेन हुआ।
+Request ambiguous ho toh system clarify kar sakta hai ki main goal kaunsa hai.||रिक्वेस्ट ऐम्बिग्युअस हो तो सिस्टम क्लैरिफाई कर सकता है कि मेन गोल कौन सा है।
+User view refine kar sakta hai aur general dashboard par wapas ja sakta hai.||यूज़र व्यू रिफाइन कर सकता है और जनरल डैशबोर्ड पर वापस जा सकता है।
+Nayi request ke baad purana delayed response latest layout ko overwrite nahi kar sakta.||नई रिक्वेस्ट के बाद पुराना डिलेड रिस्पॉन्स लेटेस्ट लेआउट को ओवरराइट नहीं कर सकता।
+Yaani adaptation ko inspect aur correct karna possible hai; control user ke paas rehta hai.||यानी अडैप्टेशन को इंस्पेक्ट और करेक्ट करना पॉसिबल है, कंट्रोल यूज़र के पास रहता है।
+@11
+Smooth transition ka kaam browser karta hai, language model nahi.||स्मूथ ट्रांज़िशन का काम ब्राउज़र करता है, लैंग्वेज मॉडल नहीं।
+Frontend change se pehle aur baad mein cards ki positions measure karta hai.||फ्रंटएंड चेंज से पहले और बाद में कार्ड्स की पोज़िशन्स मेज़र करता है।
+Phir native Web Animations se cards move aur resize hote hain.||फिर नेटिव वेब ऐनिमेशन्स से कार्ड्स मूव और रीसाइज़ होते हैं।
+Retained cards ka transition lagbhag 480 milliseconds ka hai.||रिटेन्ड कार्ड्स का ट्रांज़िशन लगभग फोर एटी मिलीसेकंड्स का है।
+New cards gradually enter karte hain, aur removed cards fade hote hain.||न्यू कार्ड्स ग्रैजुअली एंटर करते हैं, और रिमूव्ड कार्ड्स फेड होते हैं।
+Yeh animation duration hai; AI response time alag hai aur vary kar sakta hai.||यह ऐनिमेशन ड्यूरेशन है, ए आई रिस्पॉन्स टाइम अलग है और वैरी कर सकता है।
+Rapid changes current visual position se start hote hain, isliye continuity maintain hoti hai.||रैपिड चेंजेज़ करंट विज़ुअल पोज़िशन से स्टार्ट होते हैं, इसलिए कंटिन्युइटी मेंटेन होती है।
+Reduced-motion preference par movement effects disable hote hain, accessibility ko dhyaan mein rakhkar.||रिड्यूस्ड मोशन प्रेफरेंस पर मूवमेंट इफेक्ट्स डिसेबल होते हैं, ऐक्सेसिबिलिटी को ध्यान में रखकर।
+@12
+I2I AI assistant current task context aur clearly labeled demo information se answer deta hai.||आई टू आई ए आई असिस्टेंट करंट टास्क कॉन्टेक्स्ट और क्लियरली लेबल्ड डेमो इन्फॉर्मेशन से आन्सर देता है।
+Suggested questions click karte hi send hote hain.||सजेस्टेड क्वेश्चन्स क्लिक करते ही सेंड होते हैं।
+Layout change hone par draft, reply aur pending request preserve rehte hain.||लेआउट चेंज होने पर ड्राफ्ट, रिप्लाई और पेंडिंग रिक्वेस्ट प्रिज़र्व रहते हैं।
+Assistant ko kisi bhi goal view mein wapas laa sakte hain.||असिस्टेंट को किसी भी गोल व्यू में वापस ला सकते हैं।
+Design mein do themes hain: present green, aur dark grey multicolor theme.||डिज़ाइन में दो थीम्स हैं, प्रेज़ेंट ग्रीन, और डार्क ग्रे मल्टीकलर थीम।
+Dark theme mein red, yellow, green aur light blue accents use hote hain.||डार्क थीम में रेड, येलो, ग्रीन और लाइट ब्लू ऐक्सेंट्स यूज़ होते हैं।
+Theme browser mein save hoti hai, bina goal ya ongoing work reset kiye.||थीम ब्राउज़र में सेव होती है, बिना गोल या ऑनगोइंग वर्क रीसेट किए।
+@13
+Research humein inspiration ke saath caution bhi deti hai.||रिसर्च हमें इंस्पिरेशन के साथ कॉशन भी देती है।
+1999 mein Eric Horvitz ne mixed-initiative interfaces ke principles discuss kiye the.||नाइन्टीन नाइन्टी नाइन में एरिक हॉर्विट्ज़ ने मिक्स्ड इनिशिएटिव इंटरफेसेज़ के प्रिंसिपल्स डिस्कस किए थे।
+Is approach mein automation aur human direction saath kaam karte hain.||इस अप्रोच में ऑटोमेशन और ह्यूमन डायरेक्शन साथ काम करते हैं।
+Uncertain goals, sahi timing aur correction ke chances important hote hain.||अनसर्टेन गोल्स, सही टाइमिंग और करेक्शन के चान्सेज़ इम्पॉर्टेन्ट होते हैं।
+2004 mein Findlater aur McGrenere ne static, adaptive aur user-adaptable menus compare kiye.||टू थाउज़ंड फोर में फाइंडलेटर और मैकग्रेनीर ने स्टैटिक, अडैप्टिव और यूज़र अडैप्टेबल मेन्यूज़ कम्पेयर किए।
+Us study mein static menus adaptive menus se faster the.||उस स्टडी में स्टैटिक मेन्यूज़ अडैप्टिव मेन्यूज़ से फास्टर थे।
+Zyada participants ko user-adaptable menus pasand aaye; har rearrangement automatically helpful nahi hota.||ज़्यादा पार्टिसिपेंट्स को यूज़र अडैप्टेबल मेन्यूज़ पसंद आए, हर रीअरेंजमेंट ऑटोमैटिकली हेल्पफुल नहीं होता।
+Yeh dashboard ka result prove nahi karta, lekin stable shell aur user control ki value batata hai.||यह डैशबोर्ड का रिज़ल्ट प्रूव नहीं करता, लेकिन स्टेबल शेल और यूज़र कंट्रोल की वैल्यू बताता है।
+@14
+2019 mein Amershi aur colleagues ne human-AI interaction guidelines publish ki thi.||ट्वेंटी नाइन्टीन में अमरशी और कॉलीग्स ने ह्यूमन ए आई इंटरऐक्शन गाइडलाइन्स पब्लिश की थी।
+Relevant context, easy correction, clarification aur understandable explanations inke important principles hain.||रेलेवेंट कॉन्टेक्स्ट, ईज़ी करेक्शन, क्लैरिफिकेशन और अंडरस्टैन्डेबल एक्सप्लेनेशन्स इनके इम्पॉर्टेन्ट प्रिंसिपल्स हैं।
+Hamare card reasons aur refinement controls in principles se informed hain.||हमारे कार्ड रीज़न्स और रिफाइनमेंट कंट्रोल्स इन प्रिंसिपल्स से इन्फॉर्म्ड हैं।
+W3C guidance nonessential interaction motion ko disable karne ka option support karti hai.||डब्ल्यू थ्री सी गाइडेंस नॉन एसेंशियल इंटरऐक्शन मोशन को डिसेबल करने का ऑप्शन सपोर्ट करती है।
+Evaluation ke liye Hart aur Staveland ka NASA Task Load Index useful foundation hai.||इवैल्युएशन के लिए हार्ट और स्टेवलैंड का नासा टास्क लोड इंडेक्स यूज़फुल फाउंडेशन है।
+Isse mental demand, effort aur frustration jaise perceived workload factors assess kar sakte hain.||इससे मेंटल डिमांड, एफर्ट और फ्रस्ट्रेशन जैसे परसीव्ड वर्कलोड फैक्टर्स असेस कर सकते हैं।
+Yeh external research hai; I2I ka user study aur measured productivity improvement abhi pending hai.||यह एक्सटर्नल रिसर्च है, आई टू आई का यूज़र स्टडी और मेज़र्ड प्रोडक्टिविटी इम्प्रूवमेंट अभी पेंडिंग है।
+@15
+Agla proposed feature hai DTPS, yaani Dynamic Task Priority Score.||अगला प्रपोज़्ड फीचर है डी टी पी एस, यानी डाइनैमिक टास्क प्रायोरिटी स्कोर।
+Yeh abhi implemented nahi hai; formula screen par dikhaya gaya hai.||यह अभी इम्प्लीमेंटेड नहीं है, फॉर्म्युला स्क्रीन पर दिखाया गया है।
+Urgency ka weight 35 percent, aur business impact ka 30 percent hai.||अर्जेंसी का वेट थर्टी फाइव परसेंट, और बिज़नेस इम्पैक्ट का थर्टी परसेंट है।
+Dependency importance ko 20 percent, aur delay risk ko 15 percent weight milta hai.||डिपेंडेंसी इम्पॉर्टन्स को ट्वेंटी परसेंट, और डिले रिस्क को फिफ्टीन परसेंट वेट मिलता है।
+Har factor zero se hundred tak score leta hai.||हर फैक्टर ज़ीरो से हंड्रेड तक स्कोर लेता है।
+Quarterly review ke inputs 75, 80, 60 aur 70 hain.||क्वार्टरली रिव्यू के इनपुट्स सेवेंटी फाइव, एटी, सिक्स्टी और सेवेंटी हैं।
+Iska result 72.75 aata hai, yaani High priority.||इसका रिज़ल्ट सेवेंटी टू पॉइंट सेवन फाइव आता है, यानी हाई प्रायोरिटी।
+Productivity analysis ke inputs 30, 80, 20 aur 35 hain.||प्रोडक्टिविटी अनैलिसिस के इनपुट्स थर्टी, एटी, ट्वेंटी और थर्टी फाइव हैं।
+Sahi calculation 43.75 hai, yaani Medium priority.||सही कैलक्युलेशन फॉर्टी थ्री पॉइंट सेवन फाइव है, यानी मीडियम प्रायोरिटी।
+Proposed tiers 40, 60 aur 80 par start hote hain.||प्रपोज़्ड टियर्स फॉर्टी, सिक्स्टी और एटी पर स्टार्ट होते हैं।
+Confirmed critical impact ya critical blocker ke liye top-tier override add kar sakte hain.||कन्फर्म्ड क्रिटिकल इम्पैक्ट या क्रिटिकल ब्लॉकर के लिए टॉप टियर ओवरराइड ऐड कर सकते हैं।
+Python deterministic score calculate karega; Gemini uncertain estimates suggest aur explain kar sakta hai.||पाइथन डिटर्मिनिस्टिक स्कोर कैलक्युलेट करेगा, जेमिनाइ अनसर्टेन एस्टिमेट्स सजेस्ट और एक्सप्लेन कर सकता है।
+Important estimates user confirm karega; missing deadlines ya dependencies invent nahi honi chahiye.||इम्पॉर्टेन्ट एस्टिमेट्स यूज़र कन्फर्म करेगा, मिसिंग डेडलाइन्स या डिपेंडेंसीज़ इन्वेंट नहीं होनी चाहिए।
+Weights aur thresholds proposed design choices hain, jinhe real team feedback se validate karna hai.||वेट्स और थ्रेशोल्ड्स प्रपोज़्ड डिज़ाइन चॉइसेज़ हैं, जिन्हें रियल टीम फीडबैक से वैलिडेट करना है।
+@16
+I2I ki uniqueness in features ke combination mein hai.||आई टू आई की यूनिकनेस इन फीचर्स के कॉम्बिनेशन में है।
+Natural-language intent, single adaptive canvas, useful tools, explanations aur preserved working state.||नैचुरल लैंग्वेज इंटेंट, सिंगल अडैप्टिव कैनवस, यूज़फुल टूल्स, एक्सप्लेनेशन्स और प्रिज़र्व्ड वर्किंग स्टेट।
+Controlled motion is experience ko continuous banane mein help karta hai.||कंट्रोल्ड मोशन इस एक्सपीरियंस को कंटिन्युअस बनाने में हेल्प करता है।
+Aaj business context sample data hai, aur backend restart par in-memory tasks reset hote hain.||आज बिज़नेस कॉन्टेक्स्ट सैम्पल डेटा है, और बैकएंड रीस्टार्ट पर इन मेमोरी टास्क्स रीसेट होते हैं।
+Next steps hain persistent storage, real integrations aur validated priority scoring.||नेक्स्ट स्टेप्स हैं परसिस्टेंट स्टोरेज, रियल इंटिग्रेशन्स और वैलिडेटेड प्रायोरिटी स्कोरिंग।
+Fixed dashboard ke against same tasks aur same data se controlled comparison karna hoga.||फिक्स्ड डैशबोर्ड के अगेंस्ट सेम टास्क्स और सेम डेटा से कंट्रोल्ड कम्पैरिज़न करना होगा।
+Accuracy, completion time, navigation effort, workload aur unwanted changes measure karne honge.||ऐक्युरेसी, कम्प्लीशन टाइम, नैविगेशन एफर्ट, वर्कलोड और अनवॉन्टेड चेंजेज़ मेज़र करने होंगे।
+Failures, rapid refinements aur reduced motion ko bhi evaluation mein include karna chahiye.||फेल्यर्स, रैपिड रिफाइनमेंट्स और रिड्यूस्ड मोशन को भी इवैल्युएशन में इन्क्लूड करना चाहिए।
+Vision simple hai: apna goal bataiye, aur workspace ko aapke kaam ke hisaab se adapt hone dijiye.||विज़न सिंपल है, अपना गोल बताइए, और वर्कस्पेस को आपके काम के हिसाब से अडैप्ट होने दीजिए।

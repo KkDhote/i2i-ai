@@ -1,0 +1,17 @@
+tools/
+render/
+audio/
+previews/
+__pycache__/
+*.mp4
+visual-preview.png
+voice-metadata.json
+chapters.json
+I2I_Project_Explainer.srt
+verification.json
+voices/
+audio-hinglish/
+render-hinglish/
+previews-hinglish/
+chapters-hinglish.json
+I2I_Project_Explainer_Hinglish.srt

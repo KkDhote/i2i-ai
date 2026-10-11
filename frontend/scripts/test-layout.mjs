@@ -1,0 +1,10 @@
+import assert from 'node:assert/strict';
+import { preserveCards } from '../src/layout.js';
+const old = { components: [{id:'tasks',span:12},{id:'assistant',span:4},{id:'usage',span:8}] };
+const next = { components: [{id:'usage',span:12},{id:'client',span:4}] };
+const result = preserveCards(next, old, ['tasks', 'assistant']);
+assert.deepEqual(result.components.map(c => c.id), ['tasks','assistant','usage','client']);
+assert.equal(result.components[0].span, 12);
+assert.equal(new Set(result.components.map(c => c.id)).size, result.components.length);
+assert.deepEqual(preserveCards(next, null, ['tasks']), next);
+console.log('Pinned and active card preservation passed.');
